@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    margin: 15px;
+    border-radius: 1px solid #d44700;
+    align-items: center;
+}
+
+.headerLogo {
+    margin-right: 20px;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .header a  {
+      color:rgb(18, 141, 175);
+      text-decoration: none;
+  }
+
+  .header a:visited {
+      color: #d44700;
+  }
