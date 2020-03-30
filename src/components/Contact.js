@@ -13,7 +13,7 @@ return (
     <div className="Contact">
         <img src = {Person.pic} alt='a portrait' className = 'avatar'></img>
         <div>
-            <div className='name'><h4></h4>{Person.name}</div>
+            <div className='name'>{Person.name}</div>
             <div className='status'>
                 <div className='status-online'></div>
                 <div className='status-text'>On watch</div>
