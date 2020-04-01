@@ -2,20 +2,19 @@ import React from 'react';
 import './Contact.css';
 
 
-
-function Contact () {
-return (
+function Contact(props) {
+  return (
     <div className="Contact">
-        <img src = {User.pic} alt='a portrait' className = 'avatar'></img>
-        <div>
-            <div className='name'>{User.name}</div>
-            <div className='status'>
-                <div className='status-online'></div>
-                <div className='status-text'>On watch</div>
-            </div>
+      <img src={props.pic} alt="a portrait" className="avatar" />
+      <div>
+        <div className="name">{props.name}</div>
+        <div className="status">
+          <div className={props.online ? "status-online" : "status-offline"} />
+          <div className={props.online ? "status-text-online" : "status-text-offline"}>On watch</div>
         </div>
+      </div>
     </div>
-)
-};
+  );
+}
 
 export default Contact;

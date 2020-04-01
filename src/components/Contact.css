@@ -5,7 +5,7 @@
     width: 220px;
     display: flex;
     align-items: center;
-    margin: 0 15px;
+    margin: 15px 15px;
   }
   
   /* Contact image */
@@ -23,8 +23,14 @@
   }
   
   /* Status text */
-  .Contact .status .status-text {
+  .Contact .status .status-text-online {
     color: #00bfff;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .Contact .status .status-text-offline {
+    color: #4d4d4d;
     margin: 0;
     display: inline-block;
   }
