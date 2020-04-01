@@ -18,6 +18,8 @@ function Contact(props) {
   );
 }
 
+
+
 Contact.propTypes = {
     pic: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,

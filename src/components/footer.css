@@ -1,0 +1,38 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background: #000000;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    margin: 15px 15px;
+  }
+
+  .Footer .CatchPhrase {
+    font-size: small;
+    color: #d44700;
+  }
+
+  .Footer .AlertForm {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+
+  .Footer .AlertForm .FormNameAndCity{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+
+  .Footer .AlertForm .FormNameAndCity input {
+    color:#d44700;
+    width: 100px;
+    margin: 5px;
+  }
+
+  .Footer .FormNameAndCity{
+    display: flex;
+    flex-direction: row;
+  }

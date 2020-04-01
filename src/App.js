@@ -1,6 +1,8 @@
 import React from 'react';
+
 import Header from './components/Header';
 import Contact from './components/Contact';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         pic = 'https://randomuser.me/api/portraits/men/58.jpg'
         name = 'Nelson Mendoza'
     />
+      <Footer />
     </div>
   )
 }
