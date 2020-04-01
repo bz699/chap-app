@@ -20,7 +20,6 @@ function App() {
         pic = 'https://randomuser.me/api/portraits/men/58.jpg'
         name = 'Nelson Mendoza'
     />
-
     </div>
   )
 }
