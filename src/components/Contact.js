@@ -1,11 +1,7 @@
 import React from 'react';
 import './Contact.css';
 
-const User = {
-    pic : 'https://randomuser.me/api/portraits/men/16.jpg',
-    name : 'Daryl Brewer',
-    online : true,
-};
+
 
 function Contact () {
 return (
