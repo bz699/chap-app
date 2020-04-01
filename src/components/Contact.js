@@ -1,19 +1,18 @@
 import React from 'react';
 import './Contact.css';
 
-const Person = {
+const User = {
     pic : 'https://randomuser.me/api/portraits/men/16.jpg',
     name : 'Daryl Brewer',
+    online : true,
 };
-
-const online = true;
 
 function Contact () {
 return (
     <div className="Contact">
-        <img src = {Person.pic} alt='a portrait' className = 'avatar'></img>
+        <img src = {User.pic} alt='a portrait' className = 'avatar'></img>
         <div>
-            <div className='name'>{Person.name}</div>
+            <div className='name'>{User.name}</div>
             <div className='status'>
                 <div className='status-online'></div>
                 <div className='status-text'>On watch</div>
