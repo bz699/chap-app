@@ -39,6 +39,7 @@ function ContactList () {
           name = {user.name}
           pic = {user.pic}
           online = {user.online? true: false}
+          key ={user.name}
         />
       }
       )}
