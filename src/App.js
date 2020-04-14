@@ -1,30 +1,26 @@
 import React from 'react';
 
 import Header from './components/Header';
-import Contact from './components/Contact';
 import Footer from './components/footer';
+import Contact from './components/Contact';
+import ContactList from './components/ContactList';
+
+import PropTypes from 'prop-types';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Contact
-        pic = "https://randomuser.me/api/portraits/men/16.jpg"
-        name = "Daryl Brewer"
-        online
-       />
-       <Contact
-        pic = 'https://randomuser.me/api/portraits/women/60.jpg'
-        name = 'Leona Jones'
-        online
-       />
-       <Contact
-        pic = 'https://randomuser.me/api/portraits/men/58.jpg'
-        name = 'Nelson Mendoza'
-    />
+      <ContactList/>
       <Footer />
     </div>
   )
+}
+
+Contact.propTypes = {
+  pic: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  online: PropTypes.bool.isRequired,
 }
 
 export default App;
