@@ -23,14 +23,8 @@
   }
   
   /* Status text */
-  .Contact .status .status-text-online {
-    color: #00bfff;
-    margin: 0;
-    display: inline-block;
-  }
-
-  .Contact .status .status-text-offline {
-    color: #4d4d4d;
+  .Contact .status .status-text {
+    color: #999;
     margin: 0;
     display: inline-block;
   }
